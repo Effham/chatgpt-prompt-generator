@@ -48,6 +48,8 @@ const Nav = () => {
                 src={session?.user.image}
                 width={37}
                 height={37}
+          alt="Prompt Kingdom Logo"
+
                 className="rounded-full"
               ></Image>
             </Link>

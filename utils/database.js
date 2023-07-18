@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 let isConnected = false;
 
 export const connectToDB = async () => {
-  mongoose.set("strickQuery", true);
+  mongoose.set("strictQuery", true);
 
   if (isConnected) {
     console.log("MongoDb is already connected !");
@@ -19,6 +19,7 @@ export const connectToDB = async () => {
     isConnected = true;
     console.log("MongoDb is connected !");
   } catch (error) {
+    console.log("MongoDb is not connected !");
     console.log(error);
   }
 };
