@@ -4,7 +4,7 @@ import "@styles/globals.css";
 
 export const metadata = {
   title: "Prompt Kingdom",
-  description: "Discover and share AI Prompts",
+   description: "Discover and share AI Prompts",
 };
 
 const RootLayout = ({ children }) => {
